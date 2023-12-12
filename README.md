@@ -16,9 +16,4 @@ This project is to model the demand for shared bikes with the available independ
 ### Model Evaluation:
 - After selecting appropriate features as expected, the model is run
 - Residuals analysis is conduct to validate the normality assumption of error terms. The scatter plot and histogram plot show error terms fairly normally distributed, while Q-Q plot shows it is not well normally distributed, but I hold this assumption that error terms follow normal distribution for next analysis.
-- Once assumption is confirmed, the test dataset is predicted and the final model is evaluated, the R2 score - test =  0.81 and others as folowing:
-R2 score - train =  0.8468299054958596
-MAPE score - train =  0.4562296901746468
-R2 score - test =  0.81368080508983
-MAPE score - test =  0.1934869763479268
-Corr_test:  0.9028652787345921
+- Once assumption is confirmed, the test dataset is predicted and the final model is evaluated, the R2 score - test =  0.81 and others as folowing: R2 score - train =  0.85 , MAPE score - train =  0.46, R2 score - test =  0.81, MAPE score - test =  0.19, Corr_test:  0.90
